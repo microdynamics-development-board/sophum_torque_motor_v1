@@ -1,0 +1,116 @@
+P  JOB   C:/.../sophum_torque_motor_v1/PCB/sophum_torque_motor_v1.brd           
+P  CODE  00                                                                     
+P  UNITS CUST 0                                                                 
+P  TITLE C:/.../sophum_torque_motor_v1/PCB/sophum_torque_motor_v1.brd           
+P  NUM   001                                                                    
+P  REV   A                                                                      
+P  VER IPC-D-356A                                                               
+C                                                                               
+C  IPC-D-356 Ouptut File from Allegro                                           
+C  IPC File Date: Fri Sep 04 09:59:54 2020                                      
+C  Login Name:    abcd                                                          
+C                                                                               
+C                                                                               
+C  Board File:             sophum_torque_motor_v1.brd                           
+C  Design Rule Status:     UP TO DATE                                           
+C  Unit of Measure:        mils                                                 
+C  Decimal Place Accuracy: 2                                                    
+C  Number of etch Layers:  2                                                    
+C  Board Thickness(mils):  10.400000                                            
+C  Drawing Extents(mils):  -3940760  -3937008  35429319  35433071               
+C                                                                               
+C                                                                               
+C  BOARD LAYER INFORMATION                                                      
+C                                                                               
+C     Layer      Layer            Layer             Film  Layer                 
+C     Name       Material         Type              Type  Number                
+C  ---------------------------------------------------------                    
+C  TOP           COPPER           CONDUCTOR         POS     1                   
+C  BOTTOM        COPPER           CONDUCTOR         POS     2                   
+C                                                                               
+C                                                                               
+C  PADSTACK INFORMATION                                                         
+C                                                                               
+C     Padstack          First     Last                                          
+C     Name              Layer     Layer     Width     Height                    
+C  ---------------------------------------------------------                    
+C  VIA10-F              TOP       BOTTOM         4922      4922                 
+C  SR1R60X0R90          TOP       TOP            6693      3937                 
+C  SR0R50X0R25          TOP       TOP            2362      1378                 
+C  C1R60-1R00           TOP       BOTTOM         7088      7088                 
+C  R1R60-1R00           TOP       BOTTOM         7088      7088                 
+C  SR1R30X0R30          TOP       TOP            5512      1575                 
+C  SR2R00X1R60          TOP       TOP            8268      6693                 
+C  SR0R51X0R51          TOP       TOP            2402      2402                 
+C                                                                               
+C                                                                               
+C  ****************************************                                     
+C      SIGNAL PINS & VIAS ON THE BOARD                                          
+C  ****************************************                                     
+C                                                                               
+317NSLP             J3    -1    D0394PA00X+000578Y+000811X0630Y0630R090 S3      
+327NSLP             U1    -7          A01X+003780Y+002757X0197Y0098R180 S1      
+317IN2              J3    -3    D0394PA00X+000578Y+002386X0630Y    R090 S3      
+327IN2              U1    -5          A01X+003780Y+003150X0197Y0098R180 S1      
+317IN1              J3    -2    D0394PA00X+000578Y+001599X0630Y    R090 S3      
+327IN1              U1    -6          A01X+003780Y+002953X0197Y0098R180 S1      
+327OUT2             J1    -1   M      A01X+007118Y+003271X0512Y0118R180 S1      
+327OUT2             U1    -3          A01X+004528Y+002953X0197Y0098R180 S1      
+317OUT2             J4    -1    D0394PA00X+002184Y+000811X0630Y0630     S3      
+327OUT1             J1    -6   M      A01X+007118Y+002286X0512Y0118R180 S1      
+327OUT1             U1    -2          A01X+004528Y+002757X0197Y0098R180 S1      
+317OUT1             J4    -6    D0394PA00X+006122Y+000811X0630Y         S3      
+317ENCODER_B        J4    -4    D0394PA00X+004547Y+000811X0630Y         S3      
+327ENCODER_B        J1    -4          A01X+007118Y+002680X0512Y0118R180 S1      
+317ENCODER_A        J4    -3    D0394PA00X+003759Y+000811X0630Y         S3      
+327ENCODER_A        J1    -3          A01X+007118Y+002877X0512Y0118R180 S1      
+317ENCODER_A        VIA   -    MD0100PA00X+007671Y+002877X0216Y         S0      
+317GND              J4    -5   MD0394PA00X+005334Y+000811X0630Y         S3      
+327GND              J1    -7   M      A01X+008174Y+001617X0787Y0630R090 S1      
+317GND              VIA   -    MD0100PA00X+008174Y+001065X0216Y    R180 S0      
+317GND              VIA   -    MD0100PA00X+008174Y+002169X0216Y         S0      
+317GND              J3    -6   MD0394PA00X+000578Y+004748X0630Y    R090 S3      
+317GND              J3    -5   MD0394PA00X+000578Y+003961X0630Y    R090 S3      
+317GND              J3    -4   MD0394PA00X+000578Y+003174X0630Y    R090 S3      
+327GND              J1    -8   M      A01X+008174Y+003940X0787Y0630R090 S1      
+317GND              VIA   -    MD0100PA00X+008174Y+004492X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+008174Y+003388X0216Y    R180 S0      
+317GND              VIA   -    MD0100PA00X+007700Y+003940X0216Y         S0      
+317GND              J2    -6   MD0394PA00X+006118Y+004748X0630Y         S3      
+317GND              J2    -5   MD0394PA00X+005331Y+004748X0630Y         S3      
+317GND              J2    -4   MD0394PA00X+004544Y+004748X0630Y         S3      
+317GND              VIA   -    MD0100PA00X+004157Y+002652X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+004157Y+003062X0216Y         S0      
+327GND              U1    -9   M      A01X+004154Y+002855X0630Y0354R270 S1      
+317GND              VIA   -    MD0100PA00X+004528Y+003646X0216Y         S0      
+327GND              U1    -4   M      A01X+004528Y+003150X0197Y0098R180 S1      
+317GND              VIA   -    MD0100PA00X+002664Y+002560X0216Y    R180 S0      
+327GND              C2    -2   M      A01X+002990Y+002560X0201Y0201R180 S1      
+317GND              VIA   -    MD0100PA00X+005639Y+002560X0216Y         S0      
+327GND              C1    -2   M      A01X+005314Y+002560X0201Y0201     S1      
+317GND              VIA   -    MD0100PA00X+006673Y+002554X0216Y         S0      
+327GND              J1    -5   M      A01X+007118Y+002483X0512Y0118R180 S1      
+317GND              VIA   -    MD0100PA00X+006848Y+005210X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+007448Y+005210X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+008048Y+005210X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+006848Y+004610X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+007448Y+004610X0216Y         S0      
+317GND              VIA   -    MD0100PA00X+006848Y+004010X0216Y         S0      
+327VCC_3V3          C2    -1   M      A01X+003313Y+002560X0201Y0201R180 S1      
+327VCC_3V3          U1    -8   M      A01X+003780Y+002560X0197Y0098R180 S1      
+317VCC_3V3          VIA   -    MD0100PA00X+003313Y+002219X0216Y         S0      
+317VCC_3V3          J2    -2   MD0394PA00X+002969Y+004748X0630Y         S3      
+317VCC_3V3          J2    -3   MD0394PA00X+003756Y+004748X0630Y         S3      
+317VCC_3V3          J4    -2   MD0394PA00X+002972Y+000811X0630Y         S3      
+327VCC_3V3          C1    -1   M      A01X+004991Y+002560X0201Y0201     S1      
+327VCC_3V3          U1    -1   M      A01X+004528Y+002560X0197Y0098R180 S1      
+317VCC_3V3          VIA   -    MD0100PA00X+004991Y+002219X0216Y         S0      
+327VCC_3V3          J1    -2          A01X+007118Y+003074X0512Y0118R180 S1      
+317VCC_3V3          VIA   -    MD0100PA00X+006677Y+003074X0216Y         S0      
+317VCC_3V3          J2    -1   MD0394PA00X+002181Y+004748X0630Y0630     S3      
+317VCC_3V3          VIA   -    MD0100PA00X+003913Y+002219X0216Y         S0      
+317VCC_3V3          VIA   -    MD0100PA00X+004413Y+002219X0216Y         S0      
+C                                                                               
+C  End-of-Job                                                                   
+C                                                                               
+999                                                                             
